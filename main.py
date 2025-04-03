@@ -53,8 +53,8 @@ if __name__ == '__main__':
                         username_input = driver.find_element(By.XPATH, "//*[@id='loginForm']/div[1]/div[1]/div/label/input")
                         password_input = driver.find_element(By.NAME, "password")
 
-                        username_input.send_keys("vanshskataria@gmail.com")
-                        password_input.send_keys("vanshk@2001")
+                        username_input.send_keys("YOUR username")
+                        password_input.send_keys("YOUR PASSWORD")
 
                         login_button = driver.find_element(By.XPATH, "//button[@type='submit']")
                         login_button.click()
