@@ -72,6 +72,7 @@ password_input.send_keys("YOUR_PASSWORD")
 
 python your_script_name.py
 ```
+---
 ## 🗣️ Example Voice Commands
 - Open YouTube
 
@@ -82,6 +83,8 @@ python your_script_name.py
 - Open Instagram (performs auto login)
 
 - Open time (tells the current time)
+ 
+---
 
 ## 🛑 Known Limitations
 - ⚠️ Only works on Windows (uses win32com.client)
@@ -89,6 +92,8 @@ python your_script_name.py
 - 🌐 Requires an internet connection for speech recognition and website access
 
 - 🔐 Credentials are hardcoded (insecure for production)
+  
+---
 ## 📌 To-Do
  - Add GUI interface
 
@@ -97,13 +102,17 @@ python your_script_name.py
  - Add more commands
 
  - Make OS-independent
+---
 ## 🤝 Contributing
 Pull requests and suggestions are welcome!
 Feel free to fork this repo and enhance it.
 
+---
 
 ## 📄 License
 This project is open-source and available under the MIT License.
+
+---
 ## 👋 Acknowledgments
 - OpenAI
 
