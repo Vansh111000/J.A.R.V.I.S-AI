@@ -10,7 +10,7 @@ import time
 import openai
 import datetime
 
-
+#functions
 def say(text):
     speaker = win32com.client.Dispatch("SAPI.SpVoice")
     speaker.Speak(f" {text}")
